@@ -1,0 +1,93 @@
+:root {
+  --cor-vermelha: #f45353;
+  --cor-amarela: #f4a300;
+  --cor-verde: #dddd72;
+  --cor-azul-escuro: #c4dce1;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f9fa;
+  color: #333;
+}
+
+header {
+  background-color: var(--cor-azul-escuro);
+  color: white;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+header img {
+  width: 100px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: 'Krona One', sans-serif;
+}
+
+header p {
+  width: 100%;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 2rem 10%;
+}
+
+h2 {
+  color: var(--cor-azul-escuro);
+  font-size: 1.8rem;
+  font-family: 'Krona One', sans-serif;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.cta {
+  background-color: var(--cor-verde);
+  color: #0e2b3c;
+  padding: 1rem 8%;
+  text-align: center;
+}
+
+.cta h2 {
+  color: #0e2b3c;
+  font-family: 'Krona One', sans-serif;
+}
+
+.button-outline {
+  background: transparent;
+  border: 2px solid var(--cor-vermelha);
+  color: var(--cor-vermelha);
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s, color 0.3s;
+}
+
+.button-outline:hover {
+  background: var(--cor-vermelha);
+  color: white;
+}
+
+
+footer {
+  background: var(--cor-azul-escuro);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
